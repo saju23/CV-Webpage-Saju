@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:white;
+}
+
+/* container start */
+.container{
+  max-width: 1000px;
+  background-color: #f9e4f3;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* container end */
+
+/* img start*/
+.profile-image{
+  width: 100px;
+  height: 135px;
+  border-radius: 50%;
+  border: solid white 3px;
+  padding: 20px;
+  float: left;
+  filter: brightness(130%);
+
+}
+/* img end*/
+
+/* header bio start*/
+.header-bio{
+  float: left;
+  padding: 30px;
+
+}
+/* header bio end*/
+
+/* h1,h2,h3,h4,h5,h6 start*/
+h1,h2,h3,h4,h5,h6{
+  color: #9e1153;
+}
+/* h1,h2,h3,h4,h5,h6 end*/
+
+/* header contact start*/
+.header-contact{
+  float: right;
+  padding: 30px;
+}
+/* header contact end*/
+
+/* a start */
+a{
+  text-decoration: none;
+  color: rgb(128, 0, 85);
+  font-weight: bold;
+}
+/* a end */
+
+/* a:hover start */
+a:hover{
+text-decoration: underline;
+}
+/* a:hover end */
+
+/* div clear start*/
+.div-clear{
+  clear: both;
+}
+/* div clear end*/
+
+/* hr start*/
+hr{
+  border: black solid 3px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+/* hr end*/
+
+/* personal section start */
+.content{
+  margin-bottom: 30px;
+}
+
+.left-div{
+  width: 30%;
+  float: left;
+}
+
+.right-div{
+  width: 70%;
+  float: right;
+}
+/* personal section end */
+
+/* common hr start*/
+.common-hr{
+  border: solid black 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+/* common hr end*/
+
+/* education start*/
+.edu-tamplate-left{
+  float: left;
+}
+
+.edu-tamplate-right{
+  float: right;
+}
+/* education end*/
+
+/* footer start */
+.bottom-container{
+  background-color: rgb(114, 22, 76);
+  text-align: center;
+  padding: 10px;
+}
+
+.bottom-container a{
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.bottom-container a:hover{
+  color: rgb(119, 20, 45);
+  text-decoration: underline;
+  background-color: rgb(218, 166, 223);
+  padding: 10px 25px;
+}
+
+.bottom-container p{
+  color: white;
+  margin-top: 20px;
+}
+/* footer end */
