@@ -61,6 +61,7 @@ a{
 /* a:hover start */
 a:hover{
 text-decoration: underline;
+color: tomato;
 }
 /* a:hover end */
 
